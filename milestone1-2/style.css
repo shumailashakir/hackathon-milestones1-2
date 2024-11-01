@@ -1,0 +1,176 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+ * {
+     font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .body {
+     background-color: aliceblue;
+ }
+ 
+ .main {
+     margin: 40px;
+     margin-left: 250px;
+     display: grid;
+     grid-template-columns: 0.33fr 1fr;
+     max-width: 1000px;
+     min-height: 100px;
+     overflow: hidden;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+ }
+ 
+ .left-part {
+     background-color: #608BC1;
+     padding: 40px;
+ }
+ 
+ .profile {
+     display: inline-flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ .profile .img {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     overflow: hidden;
+ }
+ 
+ .profile .name {
+     color: #fff;
+     font-size: 22px;
+     margin-top: 8px;
+     text-align: left;
+     padding-left: 5px;
+     font-weight: 600;
+     margin-bottom: 0;
+     border-bottom: 1px solid #fff;
+ }
+ 
+ .title {
+     color: black;
+     text-transform: uppercase;
+     font-weight: 600;
+     letter-spacing: 1px;
+     margin-bottom: 20px;
+     padding-top: 5px;
+ }
+ 
+ .contact ul li,
+ .pskills ul li,
+ .lan ul li {
+     align-items: center;
+     list-style: none;
+     margin: 10px 0;
+     cursor: pointer;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ 
+ .lan {
+     padding-right: 50px;
+ }
+ 
+ .contact .icon {
+     display: inline-block;
+     width: 30px;
+     font-size: 15px;
+     color: #fff;
+ }
+ 
+ .name {
+     margin-top: 20px;
+ }
+ 
+ .contact,
+ .pskills,
+ .lan {
+     margin-top: 20px;
+ }
+ 
+ .right-part {
+     padding: 40px;
+ }
+ .heading{
+    font-size: 25px;
+    background-color: #CBDCEB;
+    text-align: center;
+    color: black;
+    
+ }
+ .obj {
+     padding-bottom: 5px;
+ }
+ 
+ .title2 {
+     display: inline-block;
+     padding: 2px 90px 2px 15px;
+     margin-left: -40px;
+     margin-top: 35px;
+     margin-bottom: 30px;
+     background-color: #CBDCEB;
+     color: black;
+     text-transform: uppercase;
+ }
+ 
+ .details {
+     font-size: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .b1 {
+     margin-top: 35px;
+     border-radius: 4px;
+     background-color: #608BC1;
+     font-size: 15px;
+     padding: 5px;
+ }
+ 
+ .b1:hover {
+     background-color: #CBDCEB;
+ }
+ 
+ /* Responsive styles */
+ @media (max-width: 768px) {
+     .main {
+         grid-template-columns: 1fr;
+         margin-left: 0; 
+         margin: 20px;
+     }
+     
+     .left-part {
+         padding: 20px; 
+     }
+     
+     .right-part {
+         padding: 20px; 
+     }
+ 
+     .profile .img {
+         width: 120px; 
+         height: 120px; 
+     }
+ 
+     .title2 {
+         padding: 2px 15px; 
+         margin-left: 0; 
+         margin-top: 20px; 
+         margin-bottom: 20px; 
+     }
+ 
+     .b1 {
+         width: 100%; 
+         padding: 10px; 
+         font-size: 16px; 
+     }
+ 
+     .details {
+         font-size: 12px; 
+     }
+
+ }
